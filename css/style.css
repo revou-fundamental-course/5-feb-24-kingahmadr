@@ -1,13 +1,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: black;
+    background-color: #0a749e;
+    color: rgb(156, 14, 14);
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #6cf5de;
     margin: 20px auto;
     padding: 20px;
     width: 80%;
@@ -18,12 +18,12 @@ body {
 
 h1, h3 {
     text-align: center;
-    color: #3498db;
+    color: #b80d0d;
 }
 
 p {
     font-size: 18px;
-    color: black;
+    color: rgb(135, 145, 3);
 }
 
 input[type="text"],
@@ -37,7 +37,7 @@ textarea {
 }
 
 .btn {
-    background-color: #2ecc71;
+    background-color: #19af58;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -54,5 +54,5 @@ label {
 }
 
 hr {
-    border: 1px solid #ccc;
+    border: 2px solid #b80d0d;
 }

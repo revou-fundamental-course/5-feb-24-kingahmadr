@@ -8,23 +8,23 @@ function toggleKonversi() {
     label.textContent = isCelsiusToFarhenheit ? 'Fahrenheit (°F):' : 'Celcius (°C):';
     var label = document.querySelector('label[for=h3]');
     label.textContent = isCelsiusToFarhenheit ? 'Cara Konversi dari Celcius ke Fahrenheit' : 'Cara Konversi dari Fahrenheit ke Celcius';
-    var label = document.querySelector('label[for=paragraf-1]');
+    var label = document.querySelector('label[for=p1]');
     label.textContent = isCelsiusToFarhenheit ? 'Masukkan suhu Celcius (°C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).' : 'Masukkan suhu Fahrenheit (°F) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Celcius (°C).';
-    var label = document.querySelector('label[for=paragraf-2]');
+    var label = document.querySelector('label[for=p2]');
     label.textContent = isCelsiusToFarhenheit ? 'Suhu dalam Derajat Fahrenheit (°F) sama dengan suhu dalam Derajat Celcius (°C) dikali 9/5 ditambah 32' : 'Suhu dalam Derajat Celcius (°C) sama dengan suhu dalam Derajat Fahrenheit (°F) dikurangi 32 dikali 5/9';
-    var label = document.querySelector('label[for=paragraf-3]');
+    var label = document.querySelector('label[for=p3]');
     label.textContent = isCelsiusToFarhenheit ? 'Suhu °F = (Suhu °C x 9/5) + 32' : 'Suhu °C = (Suhu °F - 32) x 5/9';
     reset();
 }
 
 function konversi() {
-    var input = document.getElementById("angka_input").value;
+    var input = document.getElementById("input_number").value;
 
     if (isNaN(input)) {
-        document.getElementById("angka_input");
+        document.getElementById("input_number");
         return;
     } else {
-        document.getElementById("angka_input");
+        document.getElementById("input_number");
     }
 
     var inputRounded = parseFloat(input);
